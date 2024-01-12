@@ -1,15 +1,17 @@
 <h1 align="center">Hi 👋, I'm Danish Khan</h1>
-<h3 align="center">A passionate frontend developer from India</h3>
+<h3 align="center">Aspiring Web Developer from India</h3>
 
-- 🌱 I’m currently learning **Full Stack Web Development**
+🌱 I’m currently learning **Full Stack Web Development**
 
-- 👨‍💻 All of my projects are available at [Link](Link)
+👨‍💻 All of my projects are available at [Link](Link)
 
-- 💬 Ask me about **JavaScript**
+💬 Ask me about **JavaScript**
 
-- 📫 How to reach me **danishk0687@gmail.com**
+📩 Email - **danishk0687@gmail.com**
 
-- 📄 Know about my experiences [Resume](https://test-resume.masaischool.com/dashboard/profile/?selectedTemplate=ModernMilestone&isEdit=true&resumeId=6569fdd7436c6b8b69f3e0f4&profileId=self)
+📔 Resume - [Resume](https://test-resume.masaischool.com/dashboard/profile/?selectedTemplate=ModernMilestone&isEdit=true&resumeId=6569fdd7436c6b8b69f3e0f4&profileId=self)
+
+💼 Portfolio - [link](link)
 
 <h3 align="left">Connect with me:</h3>
 <p align="left">
@@ -31,11 +33,11 @@
 <a href="https://reactjs.org/" target="_blank" rel="noreferrer"> <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/react/react-original-wordmark.svg" alt="react" width="40" height="40"/> </a> &nbsp;&nbsp;
 </p>
 
-<p><img align="left" src="https://github-readme-stats.vercel.app/api/top-langs?username=danishkhan424&show_icons=true&locale=en&layout=compact" alt="danishkhan424" /></p>
+<p>&nbsp;<img align="center" src="https://github-readme-stats.vercel.app/api?username=danishkhan424&show_icons=true&locale=en" alt="danishkhan424" /></p><br>
 
-<p>&nbsp;<img align="center" src="https://github-readme-stats.vercel.app/api?username=danishkhan424&show_icons=true&locale=en" alt="danishkhan424" /></p>
+<p><img align="left" src="https://github-readme-stats.vercel.app/api/top-langs?username=danishkhan424&show_icons=true&locale=en&layout=compact" alt="danishkhan424" /></p><br>
 
-<p><img align="center" src="https://github-readme-streak-stats.herokuapp.com/?user=danishkhan424&" alt="danishkhan424" /></p>
+<p><img align="center" src="https://github-readme-streak-stats.herokuapp.com/?user=danishkhan424&" alt="danishkhan424" /></p><br>
 
 
 <!--
