@@ -1,0 +1,355 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <style>
+      body {
+        background-image: linear-gradient(
+            to right,
+            rgb(0, 0, 0),
+            rgba(0, 0, 0, 0.774),
+            rgba(255, 255, 255, 0),
+            rgba(255, 255, 255, 0)
+          ),
+          url("images/lanscape1.jpg");
+        background-size: cover;
+        background-attachment: fixed;
+        background-position: center;
+      }
+      * {
+        color: #fff;
+        margin: 0;
+        padding: 0;
+        box-sizing: border-box;
+        font-family: "Poppins", sans-serif;
+        font-weight: bold;
+      }
+      /* ------------ Navbar section ------------------ */
+      a {
+        text-decoration: none;
+      }
+      header {
+        background-color: #000;
+        position: fixed;
+        width: 100%;
+        height: 70px;
+        padding: 30px 100px;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        z-index: 100;
+      }
+      header .logo {
+        height: 58px;
+        width: 58px;
+      }
+      header .logo > img {
+        max-width: 100%;
+        border-radius: 50%;
+        border: #ff1d4d 4px solid;
+      }
+      header .logo + ul {
+        display: flex;
+        justify-content: space-evenly;
+        align-items: center;
+        list-style: none;
+        gap: 20px;
+        font-size: 1.2em;
+        color: #fff;
+        text-transform: uppercase;
+      }
+      header .logo + ul li a:hover:not(.res) {
+        color: #ff1d4d;
+      }
+      .resume {
+        background-color: #ff1d4d;
+        padding: 12px;
+        border-radius: 12px;
+        border: none;
+        line-height: 30px;
+        font-size: 1em;
+      }
+      .resume:active {
+        transform: translateY(2px);
+      }
+      .resume:hover {
+        background-color: #ff0037;
+        color: #ffffff;
+      }
+
+      /* ------------ Home section -------------------- */
+
+      #home {
+        padding: 180px 100px 0;
+        font-size: 2.2em;
+        letter-spacing: 0.05em;
+        height: 100vh;
+      }
+      #home h1 {
+        font-size: 2em;
+        letter-spacing: 0.09em;
+      }
+      #home h1::first-letter {
+        font-size: 1.2em;
+      }
+      .typing,
+      .color {
+        color: #ff1d4d;
+      }
+      .resume-btn {
+        margin-top: 30px;
+        height: 70px;
+        padding: 20px;
+      }
+
+      /* ------------ About section ------------------- */
+
+      #about {
+        height: 100vh;
+        padding: 150px 100px;
+        background-color: #222;
+        color: #686868;
+      }
+      .about-container {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-between;
+      }
+      .about-image {
+        flex-basis: 30%;
+      }
+      .about-image > img {
+        filter: brightness(90%);
+        width: 100%;
+        border-radius: 20px;
+      }
+      .heading {
+        font-size: 3em;
+        color: #ff1d4d;
+        margin-bottom: 20px;
+        text-transform: capitalize;
+        text-align: center;
+        text-decoration: underline 3px;
+      }
+      .about-details {
+        flex-basis: 65%;
+        letter-spacing: 1px;
+      }
+
+      /* ------------ Skills section ------------------ */
+
+      #skills {
+        background-color: #fff;
+        color: #000;
+        padding: 80px 0;
+      }
+      .skills-heading{
+        color: #ff1d4d;
+        font-size: 3em;
+        margin-bottom: 20px;
+        text-transform: capitalize;
+        text-align: center;
+        text-decoration: underline 3px;
+      }
+      .skills{
+        background-color: #222;
+        color: #000;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        flex-wrap: wrap;
+        padding: 50px 100px;
+      }
+      .skills>div{
+        background-color: #585858;
+        margin-bottom: 20px;
+        height: 250px;
+        width: 350px;
+        padding: 20px 80px;
+        text-align: center;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+        transition: 0.5ms;
+        border-radius: 10px;
+        cursor: pointer;
+
+      }
+      .skills>div:hover{
+        background-color: #ff1d4d;
+      }
+      .skills>div *{
+        margin: 5px;
+      }
+      .skills>div img{
+        width: 50px;
+      }
+      .sub-heading{
+        color: #ff1d4d;
+        font-size: 2em;
+        margin-bottom: 20px;
+        text-transform: capitalize;
+        text-align: center;
+        text-decoration: underline 3px;
+      }
+      /* ------------techstack & tools-------- */
+      .techstack,.tools{
+        margin-top: 30px;
+      }
+      .techstack>div,.tools>div{
+        margin-top: 50px;
+        padding: 0 100px;
+        display: flex;
+        text-align: center;
+        flex-wrap: wrap;
+        justify-content: space-between;
+
+      }
+      .techstack>div img,.tools>div img{
+        width: 120px;
+      }
+      .lang-text{
+        color: #000;
+        font-size: 1.5em;
+      }
+      
+    </style>
+  </head>
+  <body>
+    <!------------ Navbar section ------------------>
+
+    <header id="">
+      <a href="#home" class="logo" id=""
+        ><img src="images/logo2.jpg" alt=""
+      /></a>
+      <ul>
+        <li><a href="#home">Home</a></li>
+        <li><a href="#about">about</a></li>
+        <li><a href="#skills">skills</a></li>
+        <li><a href="#project">project</a></li>
+        <li><a href="#contact">contact</a></li>
+        <li>
+          <button class="resume"><a href="" class="res">Resume</a></button>
+        </li>
+      </ul>
+    </header>
+
+    <!------------ Home section -------------------->
+
+    <section id="home">
+      <div class="home-container">
+        <p>Hello 👋🏼 my name is</p>
+        <h1>Danish Khan<span class="color">,</span></h1>
+        <p>I'm a <span class="typing color"></span></p>
+        <button class="resume resume-btn"><a href="">Resume</a></button>
+      </div>
+    </section>
+
+    <!------------ About section ------------------->
+
+    <section id="about">
+      <div class="about-container">
+        <div class="about-image">
+          <img src="images/danish.jpg" alt="danish-image" />
+        </div>
+        <div class="about-details">
+          <h1 class="heading">about me</h1>
+          Aspiring Full-Stack Developer with a strong foundation in HTML, CSS,
+          Python, and JavaScript. A dedicated learner, I am enthusiastic about
+          web development and continually expanding my skill set. With ongoing
+          studies at Masai School, I am eager to contribute my knowledge to
+          create impactful and innovative web solutions.
+        </div>
+      </div>
+    </section>
+
+    <!------------ Skills section ------------------>
+
+    <section id="skills">
+      <h1 class="skills-heading">skills</h1>
+      <div class="skills-container">
+        <div class="skills">
+          <div>
+            <img src="https://api.iconify.design/ph/code-bold.svg?color=white" alt="iconify-icon">
+            <h2>Front-End</h2>
+            <p>HTML, CSS,</p>
+            <p>JavaScript, React</p>
+          </div>
+          <div>
+            <img src="https://api.iconify.design/fa-solid/chart-line.svg?color=white" alt="iconify-icon">
+            <h2>Back-End</h2>
+            <p>Coming </p>
+            <p>Soon...</p>
+          </div>
+          <div>
+            <img src="https://api.iconify.design/mdi/family-tree.svg?color=white" alt="iconify-icon">
+            <h2>DSA</h2>
+            <p>Coming </p>
+            <p>Soon...</p>
+          </div>
+        </div>
+        <div class="techstack">
+          <h2 class="sub-heading">techstack</h2>
+          <div>
+            <div><a href="https://html.spec.whatwg.org/" target="_blank"><img src="images/html.png" alt="html-image"></a><p class="lang-text">HTML</p></div>
+            <div><a href="https://www.w3.org/Style/CSS/" target="_blank"><img src="images/css.png" alt="css-image"></a><p class="lang-text">CSS</p></div>
+            <div><a href="https://www.ecma-international.org/publications/standards/Ecma-262.htm" target="_blank"><img src="images/javascript.png" alt="javascript-image"></a>
+            <p class="lang-text">JavaScript</p></div>
+            <div><a href="https://reactjs.org/" target="_blank"><img src="images/react.png" alt="react-image"></a>
+            <p class="lang-text">React</p></div>
+            <div><a href="https://babeljs.io/" target="_blank"><img src="images/babel.png" alt="babel-image"></a>
+            <p class="lang-text">Babel</p></div>
+            <div><a href="https://www.python.org/" target="_blank"><img src="images/python.png" alt="python-image"></a>
+            <p class="lang-text">Python</p></div>
+          </div>
+        </div>
+
+        <div class="tools">
+          <h2 class="sub-heading">tools</h2>
+          <div>
+            <div><a href="https://code.visualstudio.com/" target="_blank"><img src="images/vsCode.png" alt="vsCode-image"></a><p class="lang-text">VS Code</p></div>
+            <div><a href="https://www.sublimetext.com/" target="_blank"><img src="images/sublime.png" alt="sublime-image"></a><p class="lang-text">Sublime</p></div>
+            <div><a href="https://git-scm.com/" target="_blank"><img src="images/git.png" alt="git-image"></a>
+            <p class="lang-text">Git</p></div>
+            <div><a href="https://www.postman.com/" target="_blank"><img src="images/postman.svg" alt="postman-image"></a>
+            <p class="lang-text">Postman</p></div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!------------ Project section ----------------->
+
+    <section id="project" style="background-color: purple">
+      <h1>projects</h1>
+      <div class="project-container"></div>
+    </section>
+
+    <!------------ Contact section ------------------>
+
+    <section id="contact" style="background-color: navy">
+      <h1>contact me</h1>
+      <div></div>
+    </section>
+  </body>
+
+
+          <!-- -----------------------auto-type------------------ -->
+
+  <script src="https://cdn.jsdelivr.net/npm/typed.js@2.0.12"></script>
+  <script>
+    var typed = new Typed(".typing", {
+      strings: ["Tech Explorer", "Style Seeker", "Bug Explorer"],
+      typeSpeed: 100,
+      backSpeed: 60,
+      loop: true,
+    });
+  </script>
+  <script
+    src="https://kit.fontawesome.com/4092f9fcb0.js"
+    crossorigin="anonymous"
+  ></script>
+</html>
