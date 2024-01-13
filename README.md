@@ -1,5 +1,6 @@
 <h1 align="center">Hi 👋, I'm Danish Khan</h1>
-<h3 align="center">an aspiring Full Stack Web Developer currently studying at Masai School. Welcome to my GitHub profile!</h3>
+<h3 align="center">An aspiring Full Stack Web Developer currently studying at Masai School.</h3>
+<h5 align="center">Welcome to my GitHub profile!</h5>
 
 ## About Me
 
