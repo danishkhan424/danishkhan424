@@ -1,9 +1,8 @@
 <h1 align="center">Hi 👋, I'm Danish Khan</h1>
-<h3 align="center">An aspiring Full Stack Web Developer currently studying at Masai School.</h3>
-<h5 align="center">Welcome to my GitHub profile!</h5>
+<h3 align="center">An aspiring Full Stack Web Developer👨‍💻 currently studying at Masai School.</h3>
+<h5 align="center">Welcome 🤗 to my GitHub profile!</h5>
 
 ## 🤔 About Me:
-<hr>
 
 🌐 Exploring the world of web development.
 
@@ -20,7 +19,7 @@
 💼 Portfolio - [link](link)
 
 ## 🌐 Connect with me:
-<hr>
+
 <p align="left">
 <a href="https://linkedin.com/in/danishkhan424" target="blank"><img align="center" src="images/linkedin.png" alt="linkedIn-danishkhan424" height="40" width="40" /></a>&nbsp;&nbsp;
 <a href="https://codepen.io/danish_khan_424" target="blank"><img align="center" src="images/codepen.png" alt="codePpen-danish_khan_424" height="40" width="40" /></a>&nbsp;&nbsp;
@@ -29,7 +28,7 @@
 <br>
 
 ## 🛠 Tech Stack & Tools:
-<hr>
+
 <p align="left"> 
 <a href="https://www.w3.org/html/" target="_blank" rel="noreferrer"> <img src="images/html.png" alt="html5" width="50" height="50"/> </a> &nbsp;&nbsp;
 <a href="https://www.w3schools.com/css/" target="_blank" rel="noreferrer"> <img src="images/css.png" alt="css3" width="50" height="50"/> </a>&nbsp;&nbsp;
