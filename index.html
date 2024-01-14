@@ -4,6 +4,10 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Document</title>
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/swiper@11.0.5/swiper-bundle.min.css"
+    />
     <style>
       body {
         background-image: linear-gradient(
@@ -19,7 +23,6 @@
         background-position: center;
       }
       * {
-        color: #fff;
         margin: 0;
         padding: 0;
         box-sizing: border-box;
@@ -29,6 +32,7 @@
       /* ------------ Navbar section ------------------ */
       a {
         text-decoration: none;
+        color: #fff;
       }
       header {
         background-color: #000;
@@ -63,7 +67,7 @@
       header .logo + ul li a:hover:not(.res) {
         color: #ff1d4d;
       }
-      .resume {
+      .btn {
         background-color: #ff1d4d;
         padding: 12px;
         border-radius: 12px;
@@ -71,10 +75,10 @@
         line-height: 30px;
         font-size: 1em;
       }
-      .resume:active {
+      .btn:active {
         transform: translateY(2px);
       }
-      .resume:hover {
+      .btn:hover {
         background-color: #ff0037;
         color: #ffffff;
       }
@@ -82,6 +86,7 @@
       /* ------------ Home section -------------------- */
 
       #home {
+        color: #fff;
         padding: 180px 100px 0;
         font-size: 2.2em;
         letter-spacing: 0.05em;
@@ -110,7 +115,7 @@
         height: 100vh;
         padding: 150px 100px;
         background-color: #222;
-        color: #686868;
+        color: #ffffffdc;
       }
       .about-container {
         display: flex;
@@ -132,6 +137,7 @@
         text-transform: capitalize;
         text-align: center;
         text-decoration: underline 3px;
+        letter-spacing: 2px;
       }
       .about-details {
         flex-basis: 65%;
@@ -142,10 +148,9 @@
 
       #skills {
         background-color: #fff;
-        color: #000;
         padding: 80px 0;
       }
-      .skills-heading{
+      .skills-heading {
         color: #ff1d4d;
         font-size: 3em;
         margin-bottom: 20px;
@@ -153,16 +158,16 @@
         text-align: center;
         text-decoration: underline 3px;
       }
-      .skills{
+      .skills {
         background-color: #222;
-        color: #000;
+        color: #fff;
         display: flex;
         justify-content: space-between;
         align-items: center;
         flex-wrap: wrap;
         padding: 50px 100px;
       }
-      .skills>div{
+      .skills > div {
         background-color: #585858;
         margin-bottom: 20px;
         height: 250px;
@@ -173,49 +178,126 @@
         justify-content: center;
         align-items: center;
         flex-direction: column;
-        transition: 0.5ms;
+        transition: 200ms;
         border-radius: 10px;
         cursor: pointer;
+        filter: grayscale(0.5);
+      }
 
-      }
-      .skills>div:hover{
+      .skills > div:hover {
         background-color: #ff1d4d;
+        filter: grayscale(0);
+        transform: scale(1.05);
       }
-      .skills>div *{
+      .skills > div * {
         margin: 5px;
       }
-      .skills>div img{
+      .skills > div img {
         width: 50px;
       }
-      .sub-heading{
+      .sub-heading {
         color: #ff1d4d;
         font-size: 2em;
         margin-bottom: 20px;
         text-transform: capitalize;
         text-align: center;
         text-decoration: underline 3px;
+        letter-spacing: 2px;
       }
       /* ------------techstack & tools-------- */
-      .techstack,.tools{
+      .techstack,
+      .tools {
         margin-top: 30px;
       }
-      .techstack>div,.tools>div{
+      .techstack > div,
+      .tools > div {
         margin-top: 50px;
         padding: 0 100px;
         display: flex;
         text-align: center;
         flex-wrap: wrap;
         justify-content: space-between;
-
       }
-      .techstack>div img,.tools>div img{
+      .techstack > div img,
+      .tools > div img {
         width: 120px;
       }
-      .lang-text{
+      .lang-text {
         color: #000;
         font-size: 1.5em;
       }
-      
+
+      /* --------------project----------------- */
+      #project {
+        padding: 80px 0;
+        text-align: center;
+        background-color: #fff;
+      }
+      .project-container {
+        padding: 0 100px;
+        background-color: #222;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        position: relative;
+        height: 100%;
+      }
+      .card-image {
+        position: relative;
+        height: 220px;
+        max-width: 350px;
+      }
+      .card-image .card-img {
+        height: 100%;
+        width: 100%;
+        object-fit: cover;
+        border-radius: 20px;
+        border: 2px solid #fff;
+      }
+      .card {
+        width: 350px;
+        border-radius: 25px;
+        color: #000;
+        background-color: #585858;
+        padding: 2px;
+      }
+      .project-content {
+        margin: 0 40px;
+      }
+      .card-image,
+      .card-content {
+        margin: auto;
+        color: #fff;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        padding: 5px 5px;
+      }
+      .card-content {
+        padding: 10px 20px;
+      }
+      .name {
+        text-transform: capitalize;
+        color: #ff1d4d;
+        font-size: 30px;
+      }
+      .details {
+        font-size: 14px;
+        margin: 8px 0;
+      }
+      b{
+        color: #ff1d4d;
+        font-weight: 100;
+      }
+      .repo{
+        display: flex;
+        justify-content: space-around;
+        align-items: center;
+        margin: 20px 0;
+      }
+      .repo a{
+
+      }
     </style>
   </head>
   <body>
@@ -232,7 +314,7 @@
         <li><a href="#project">project</a></li>
         <li><a href="#contact">contact</a></li>
         <li>
-          <button class="resume"><a href="" class="res">Resume</a></button>
+          <button class="btn"><a href="" class="res">Resume</a></button>
         </li>
       </ul>
     </header>
@@ -244,7 +326,7 @@
         <p>Hello 👋🏼 my name is</p>
         <h1>Danish Khan<span class="color">,</span></h1>
         <p>I'm a <span class="typing color"></span></p>
-        <button class="resume resume-btn"><a href="">Resume</a></button>
+        <button class="btn resume-btn"><a href="">Resume</a></button>
       </div>
     </section>
 
@@ -269,53 +351,108 @@
     <!------------ Skills section ------------------>
 
     <section id="skills">
-      <h1 class="skills-heading">skills</h1>
+      <h1 class="skills-heading heading">skills</h1>
       <div class="skills-container">
         <div class="skills">
           <div>
-            <img src="https://api.iconify.design/ph/code-bold.svg?color=white" alt="iconify-icon">
+            <img
+              src="https://api.iconify.design/ph/code-bold.svg?color=white"
+              alt="iconify-icon"
+            />
             <h2>Front-End</h2>
             <p>HTML, CSS,</p>
             <p>JavaScript, React</p>
           </div>
           <div>
-            <img src="https://api.iconify.design/fa-solid/chart-line.svg?color=white" alt="iconify-icon">
+            <img
+              src="https://api.iconify.design/fa-solid/chart-line.svg?color=white"
+              alt="iconify-icon"
+            />
             <h2>Back-End</h2>
-            <p>Coming </p>
+            <p>Coming</p>
             <p>Soon...</p>
           </div>
           <div>
-            <img src="https://api.iconify.design/mdi/family-tree.svg?color=white" alt="iconify-icon">
+            <img
+              src="https://api.iconify.design/mdi/family-tree.svg?color=white"
+              alt="iconify-icon"
+            />
             <h2>DSA</h2>
-            <p>Coming </p>
+            <p>Coming</p>
             <p>Soon...</p>
           </div>
         </div>
         <div class="techstack">
           <h2 class="sub-heading">techstack</h2>
           <div>
-            <div><a href="https://html.spec.whatwg.org/" target="_blank"><img src="images/html.png" alt="html-image"></a><p class="lang-text">HTML</p></div>
-            <div><a href="https://www.w3.org/Style/CSS/" target="_blank"><img src="images/css.png" alt="css-image"></a><p class="lang-text">CSS</p></div>
-            <div><a href="https://www.ecma-international.org/publications/standards/Ecma-262.htm" target="_blank"><img src="images/javascript.png" alt="javascript-image"></a>
-            <p class="lang-text">JavaScript</p></div>
-            <div><a href="https://reactjs.org/" target="_blank"><img src="images/react.png" alt="react-image"></a>
-            <p class="lang-text">React</p></div>
-            <div><a href="https://babeljs.io/" target="_blank"><img src="images/babel.png" alt="babel-image"></a>
-            <p class="lang-text">Babel</p></div>
-            <div><a href="https://www.python.org/" target="_blank"><img src="images/python.png" alt="python-image"></a>
-            <p class="lang-text">Python</p></div>
+            <div>
+              <a href="https://html.spec.whatwg.org/" target="_blank"
+                ><img src="images/html.png" alt="html-image"
+              /></a>
+              <p class="lang-text">HTML</p>
+            </div>
+            <div>
+              <a href="https://www.w3.org/Style/CSS/" target="_blank"
+                ><img src="images/css.png" alt="css-image"
+              /></a>
+              <p class="lang-text">CSS</p>
+            </div>
+            <div>
+              <a
+                href="https://www.ecma-international.org/publications/standards/Ecma-262.htm"
+                target="_blank"
+                ><img src="images/javascript.png" alt="javascript-image"
+              /></a>
+              <p class="lang-text">JavaScript</p>
+            </div>
+            <div>
+              <a href="https://reactjs.org/" target="_blank"
+                ><img src="images/react.png" alt="react-image"
+              /></a>
+              <p class="lang-text">React</p>
+            </div>
+            <div>
+              <a href="https://babeljs.io/" target="_blank"
+                ><img src="images/babel.png" alt="babel-image"
+              /></a>
+              <p class="lang-text">Babel</p>
+            </div>
+            <div>
+              <a href="https://www.python.org/" target="_blank"
+                ><img src="images/python.png" alt="python-image"
+              /></a>
+              <p class="lang-text">Python</p>
+            </div>
           </div>
         </div>
 
         <div class="tools">
           <h2 class="sub-heading">tools</h2>
           <div>
-            <div><a href="https://code.visualstudio.com/" target="_blank"><img src="images/vsCode.png" alt="vsCode-image"></a><p class="lang-text">VS Code</p></div>
-            <div><a href="https://www.sublimetext.com/" target="_blank"><img src="images/sublime.png" alt="sublime-image"></a><p class="lang-text">Sublime</p></div>
-            <div><a href="https://git-scm.com/" target="_blank"><img src="images/git.png" alt="git-image"></a>
-            <p class="lang-text">Git</p></div>
-            <div><a href="https://www.postman.com/" target="_blank"><img src="images/postman.svg" alt="postman-image"></a>
-            <p class="lang-text">Postman</p></div>
+            <div>
+              <a href="https://code.visualstudio.com/" target="_blank"
+                ><img src="images/vsCode.png" alt="vsCode-image"
+              /></a>
+              <p class="lang-text">VS Code</p>
+            </div>
+            <div>
+              <a href="https://www.sublimetext.com/" target="_blank"
+                ><img src="images/sublime.png" alt="sublime-image"
+              /></a>
+              <p class="lang-text">Sublime</p>
+            </div>
+            <div>
+              <a href="https://git-scm.com/" target="_blank"
+                ><img src="images/git.png" alt="git-image"
+              /></a>
+              <p class="lang-text">Git</p>
+            </div>
+            <div>
+              <a href="https://www.postman.com/" target="_blank"
+                ><img src="images/postman.svg" alt="postman-image"
+              /></a>
+              <p class="lang-text">Postman</p>
+            </div>
           </div>
         </div>
       </div>
@@ -323,9 +460,37 @@
 
     <!------------ Project section ----------------->
 
-    <section id="project" style="background-color: purple">
-      <h1>projects</h1>
-      <div class="project-container"></div>
+    <section id="project">
+      <h1 class="heading">projects</h1>
+      <div class="project-container">
+        <div class="project-content">
+          <div class="card-wrapper">
+            <div class="card">
+              <span class="overlay"></span>
+              <div class="card-image">
+                <img src="images/calculator.jpg" alt="" class="card-img" />
+              </div>
+              <div class="card-content">
+                <h2 class="name">calculator</h2>
+                <p class="details">
+                  A simple calculator project implementing basic arithmetic operations.
+                </p>
+                <p class="details">
+                  <b>Tech Stack: &nbsp; </b> HTML | CSS | JavaScript
+                </p>
+                <div class="repo">
+                  <button class="btn"><a href="" class="btn">View Code</a></button>
+                  <button class="btn"><a href="" class="btn">Visit Site</a></button>
+                  
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="swiper-button-next"></div>
+          <div class="swiper-button-prev"></div>
+          <div class="swiper-pagination"></div>
+        </div>
+      </div>
     </section>
 
     <!------------ Contact section ------------------>
@@ -336,8 +501,7 @@
     </section>
   </body>
 
-
-          <!-- -----------------------auto-type------------------ -->
+  <!-- -----------------------auto-type------------------ -->
 
   <script src="https://cdn.jsdelivr.net/npm/typed.js@2.0.12"></script>
   <script>
@@ -348,6 +512,30 @@
       loop: true,
     });
   </script>
+
+  <!-- -----------------swiper-------------- -->
+  <script src="https://cdn.jsdelivr.net/npm/swiper@11.0.5/swiper-bundle.min.js"></script>
+  <script>
+    var swiper = new Swiper(".swiper", {
+      slidesPerView: 3,
+      spaceBetween: 25,
+      loop: true,
+      centerSlide: "true",
+      fade: "true",
+      grabCursor: "true",
+      pagination: {
+        el: ".swiper-pagination",
+        clickable: true,
+        dynamicBullets: true,
+      },
+      navigation: {
+        nextEl: ".swiper-button-next",
+        prevEl: ".swiper-button-prev",
+      },
+    });
+  </script>
+
+  <!-- --------------------icons---------------- -->
   <script
     src="https://kit.fontawesome.com/4092f9fcb0.js"
     crossorigin="anonymous"
