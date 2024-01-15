@@ -164,6 +164,7 @@ nav ul li a:hover:not(.res) {
 .about-not-responsive{
   text-decoration: none;
   border-bottom: #ff1d4d 2px solid;
+  margin: 20px 0;
 }
 .about-details {
   flex-basis: 65%;
@@ -171,8 +172,8 @@ nav ul li a:hover:not(.res) {
   font-size: 1em;
 }
 .about-details>p{
-  margin-top: 20px;
-  font-size: 1.1em;
+  margin-top: 40px;
+  font-size: 1em;
 }
 
 /* ------------ Skills section ------------------ */
@@ -383,6 +384,10 @@ b {
 .contact-container h4 {
   font-size: 1.8em;
   padding-bottom: 10px;
+  letter-spacing: 5px;
+}
+.get-in{
+  text-decoration: none;
 }
 .fa-brands,
 .fa-solid,
@@ -498,7 +503,7 @@ footer {
   justify-content: space-evenly;
 }
 .lang-text{
-  font-size: 1.2em;
+  font-size: 1.4em;
 }
 
 /* --------------project----------------- */
@@ -643,6 +648,10 @@ footer{
 .about-details{
   max-width: 550px;
 }
+.about-details > p{
+  font-size: 1.4em;
+}
+
 
 /* ------------ Skills section ------------------ */
 
@@ -661,6 +670,9 @@ footer{
 .techstack > div img,
 .tools > div img {
   width: 100px;
+}
+.tools > div img{
+  width: 70px;
 }
 .techstack > div{
   margin: auto;
@@ -710,21 +722,21 @@ footer{
 .fa-brands,
 .fa-solid,
 .fa-envelope {
-  font-size: 1em;
+  font-size: 1.2em;
   margin-bottom: 30px;
 }
 .contact-icon {
-  font-size: 1.3em;
+  font-size: 2em;
 }
 .fa-brands {
-  font-size: 2em;
+  font-size: 1.8em;
 }
 
 /* ----------------thank you------------ */
 
 footer{
   height: 40px;
-  font-size: 0.8em;
+  font-size: 1.1em;
 }
 
 
