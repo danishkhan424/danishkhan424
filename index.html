@@ -11,9 +11,31 @@
     <link rel="stylesheet" href="style.css">
 
   </head>
-  <body>
+  <body onresize="hello()">
     <!------------ Navbar section ------------------>
 
+    <nav>
+      <input type="checkbox" id="check" />
+      <label for="check" class="checkbtn">
+        <i class="fas fa-bars"></i>
+      </label>
+      <label ><a href="#home" class="logo"id=""
+        ><img src="images/logo2.jpg" alt=""
+      /></a></label>
+      <ul>
+        <li><a href="#home" class="active">Home</a></li>
+        <li><a href="#about">about</a></li>
+        <li><a href="#skills">skills</a></li>
+        <li><a href="#project">project</a></li>
+        <li><a href="#contact">contact</a></li>
+        <li>
+          <button class="btn"><a href="" class="res">Resume</a></button>
+        </li>
+      </ul>
+    </nav>
+  
+
+<!-- 
     <header id="">
       <a href="#home" class="logo" id=""
         ><img src="images/logo2.jpg" alt=""
@@ -28,7 +50,7 @@
           <button class="btn"><a href="" class="res">Resume</a></button>
         </li>
       </ul>
-    </header>
+    </header> -->
 
     <!------------ Home section -------------------->
 
@@ -50,7 +72,7 @@
           <img src="images/danish.jpg" alt="danish-image" />
         </div>
         <div class="about-details">
-          <h1 class="heading">about me</h1>
+          <h1 class="heading about-not-responsive">about me</h1>
           Aspiring Full-Stack Developer with a strong foundation in HTML, CSS,
           Python, and JavaScript. A dedicated learner, I am enthusiastic about
           web development and continually expanding my skill set. With ongoing
@@ -444,7 +466,12 @@
     crossorigin="anonymous"
   ></script>
 </html>
+<script>
 
+ function hello (){
+    console.log(window.innerHeight, window.innerWidth)
+ }
+</script>
 <!-- <div class="project-content">
           <div class="card-wrapper"> -->
 
