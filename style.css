@@ -604,6 +604,9 @@ footer{
   nav ul li a{
     font-size: 2em;
   }
+  nav ul li a.active{
+  text-decoration: underline #fff 2px;
+}
   nav ul li .btn{
     height: 60px;
     padding: 10px 50px;
