@@ -8,10 +8,9 @@
       rel="stylesheet"
       href="https://cdn.jsdelivr.net/npm/swiper@11.0.5/swiper-bundle.min.css"
     />
-    <link rel="stylesheet" href="style.css">
-
+    <link rel="stylesheet" href="style.css" />
   </head>
-  <body onresize="hello()">
+  <body>
     <!------------ Navbar section ------------------>
 
     <nav>
@@ -19,9 +18,10 @@
       <label for="check" class="checkbtn">
         <i class="fas fa-bars"></i>
       </label>
-      <label ><a href="#home" class="logo"id=""
-        ><img src="images/logo2.jpg" alt=""
-      /></a></label>
+      <label
+        ><a href="#home" class="logo" id=""
+          ><img src="images/logo2.jpg" alt="" /></a
+      ></label>
       <ul>
         <li><a href="#home" class="active">Home</a></li>
         <li><a href="#about">about</a></li>
@@ -29,13 +29,11 @@
         <li><a href="#project">project</a></li>
         <li><a href="#contact">contact</a></li>
         <li>
-          <button class="btn"><a href="" class="res">Resume</a></button>
+          <button class="btn"><a href="images/Danish-Khan-cap03_022-Frontend-Developer.pdf" onclick="window.open('https://drive.google.com/file/d/1N9HfOaYA0gylD3LbmyKe1oIW12miWdfd/view?usp=sharing')"class="res" download="Danish Khan Resume">Resume</a></button>
         </li>
       </ul>
     </nav>
-  
-
-<!-- 
+    <!-- 
     <header id="">
       <a href="#home" class="logo" id=""
         ><img src="images/logo2.jpg" alt=""
@@ -59,7 +57,7 @@
         <p>Hello 👋🏼 my name is</p>
         <h1>Danish Khan<span class="color">,</span></h1>
         <p>I'm a <span class="typing color"></span></p>
-        <button class="btn resume-btn"><a href="">Resume</a></button>
+        <button class="btn resume-btn"><a href="images/Danish-Khan-cap03_022-Frontend-Developer.pdf" onclick="window.open('https://drive.google.com/file/d/1N9HfOaYA0gylD3LbmyKe1oIW12miWdfd/view?usp=sharing')" download="Danish Khan Resume">Resume</a></button>
       </div>
     </section>
 
@@ -73,11 +71,13 @@
         </div>
         <div class="about-details">
           <h1 class="heading about-not-responsive">about me</h1>
-          <p>Aspiring Full-Stack Developer with a strong foundation in HTML, CSS,
-          Python, and JavaScript. A dedicated learner, I am enthusiastic about
-          web development and continually expanding my skill set. With ongoing
-          studies at Masai School, I am eager to contribute my knowledge to
-          create impactful and innovative web solutions.</p>
+          <p>
+            Aspiring Full-Stack Developer with a strong foundation in HTML, CSS,
+            Python, and JavaScript. A dedicated learner, I am enthusiastic about
+            web development and continually expanding my skill set. With ongoing
+            studies at Masai School, I am eager to contribute my knowledge to
+            create impactful and innovative web solutions.
+          </p>
         </div>
       </div>
     </section>
@@ -199,6 +199,7 @@
       <div class="project-container">
         <div class="swiper project-content">
           <div class="swiper-wrapper card-wrapper">
+            <!-- calculator project-->
             <div class="card swiper-slide">
               <div class="card-image">
                 <img src="images/calculator.jpg" alt="" class="card-img" />
@@ -214,15 +215,15 @@
                 </p>
                 <div class="repo">
                   <button class="btn">
-                    <a href="" class="">View Code</a>
+                    <a href="https://github.com/danishkhan424/calculator" class="">View Code</a>
                   </button>
                   <button class="btn">
-                    <a href="" class="">Visit Site</a>
+                    <a href="https://danishkhan424.github.io/calculator/">Visit Site</a>
                   </button>
                 </div>
               </div>
             </div>
-            <!-- calculator project-->
+            <!-- timer project-->
             <div class="card swiper-slide">
               <div class="card-image">
                 <img src="images/timer.jpg" alt="" class="card-img" />
@@ -237,15 +238,15 @@
                 </p>
                 <div class="repo">
                   <button class="btn">
-                    <a href="" class="">View Code</a>
+                    <a href="https://github.com/danishkhan424/timer" class="">View Code</a>
                   </button>
                   <button class="btn">
-                    <a href="" class="">Visit Site</a>
+                    <a href="https://danishkhan424.github.io/timer/" class="">Visit Site</a>
                   </button>
                 </div>
               </div>
             </div>
-            <!-- timer project-->
+            <!-- stopwatch project-->
             <div class="card swiper-slide">
               <div class="card-image">
                 <img src="images/stopwatch.jpg" alt="" class="card-img" />
@@ -260,15 +261,15 @@
                 </p>
                 <div class="repo">
                   <button class="btn">
-                    <a href="" class="btn">View Code</a>
+                    <a href="https://github.com/danishkhan424/stopwatch" class="">View Code</a>
                   </button>
                   <button class="btn">
-                    <a href="" class="btn">Visit Site</a>
+                    <a href="https://danishkhan424.github.io/stopwatch/" class="">Visit Site</a>
                   </button>
                 </div>
               </div>
             </div>
-            <!-- stopwatch project-->
+            <!-- portfolio project-->
             <div class="card swiper-slide">
               <div class="card-image">
                 <img src="images/portfolio.jpg" alt="" class="card-img" />
@@ -284,7 +285,7 @@
                 </p>
                 <div class="repo">
                   <button class="btn">
-                    <a href="" class="">View Code</a>
+                    <a href="https://github.com/danishkhan424/danishkhan424/tree/main/portfolio" class="">View Code</a>
                   </button>
                   <button class="btn">
                     <a href="" class="">Visit Site</a>
@@ -292,7 +293,7 @@
                 </div>
               </div>
             </div>
-            <!-- portfolio project-->
+            <!-- movie project-->
             <div class="card swiper-slide">
               <div class="card-image">
                 <img src="images/movie.jpg" alt="" class="card-img" />
@@ -316,7 +317,7 @@
                 </div>
               </div>
             </div>
-            <!-- movie project-->
+            <!-- dummy to-do project-->
             <div class="card swiper-slide">
               <div class="card-image">
                 <img src="images/to-do.jpg" alt="" class="card-img" />
@@ -340,7 +341,6 @@
                 </div>
               </div>
             </div>
-            <!-- dummy to-do project-->
           </div>
           <div class="swiper-button-next silde-btn"></div>
           <div class="swiper-button-prev silde-btn"></div>
@@ -411,6 +411,37 @@
     </footer>
   </body>
 
+  
+  <script>
+    
+    // --------------------active links-----------
+
+
+    let sections = document.querySelectorAll("section");
+    let navlinks = document.querySelectorAll("nav>ul>li>a");
+
+    window.onscroll = () => {
+      sections.forEach((sec) => {
+        let top = window.scrollY;
+        let offset = sec.offsetTop -20;
+        let offsetHeight = sec.offsetHeight;
+        let id = sec.getAttribute("id");
+
+        if (top >= offset && top < offset + offsetHeight) {
+          navlinks.forEach((links) => {
+            links.classList.remove("active");
+            document
+              .querySelector(`nav>ul>li>a[href*= ${id} ]`)
+              .classList.add("active");
+            console.log(
+              document.querySelector(`nav>ul>li>a[href*= ${id} ]`)
+            );
+          });
+        }
+      });
+    };
+
+  </script>
   <!-- -----------------------auto-type------------------ -->
 
   <script src="https://cdn.jsdelivr.net/npm/typed.js@2.0.12"></script>
@@ -466,12 +497,6 @@
     crossorigin="anonymous"
   ></script>
 </html>
-<script>
-
- function hello (){
-    console.log(window.innerHeight, window.innerWidth)
- }
-</script>
 <!-- <div class="project-content">
           <div class="card-wrapper"> -->
 
