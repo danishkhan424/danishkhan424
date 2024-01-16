@@ -14,16 +14,17 @@
 
 📩 Email - **danishk0687@gmail.com**
 
-📔 Resume - [Resume](https://test-resume.masaischool.com/dashboard/profile/?selectedTemplate=ModernMilestone&isEdit=true&resumeId=6569fdd7436c6b8b69f3e0f4&profileId=self)
+📔 Resume - <a href="https://drive.google.com/file/d/1N9HfOaYA0gylD3LbmyKe1oIW12miWdfd/view?usp=sharing" target="_blank">Resume link</a>
 
-💼 Portfolio - [link](https://danishkhan424.github.io/danishkhan424/)
+💼 Portfolio - <a href="https://danishkhan424.github.io/danishkhan424/" target="_blank">Portfolio link</a>
+
 
 ## 🌐 Connect with me:
 
 <p align="left">
-<a href="https://linkedin.com/in/danishkhan424" target="blank"><img align="center" src="images/linkedin.png" alt="linkedIn-danishkhan424" height="40" width="40" /></a>&nbsp;&nbsp;
-<a href="https://codepen.io/danish_khan_424" target="blank"><img align="center" src="images/codepen.png" alt="codePpen-danish_khan_424" height="40" width="40" /></a>&nbsp;&nbsp;
-<a href="https://codesandbox.com/danishkhan424" target="blank"><img align="center" src="images/code-sandbox.png" alt="codeSandbox-danishkhan424" height="40" width="40" /></a>
+<a href="https://linkedin.com/in/danishkhan424" target="_blank"><img align="center" src="images/linkedin.png" alt="linkedIn-danishkhan424" height="40" width="40" /></a>&nbsp;&nbsp;
+<a href="https://codepen.io/danish_khan_424" target="_blank"><img align="center" src="images/codepen.png" alt="codePpen-danish_khan_424" height="40" width="40" /></a>&nbsp;&nbsp;
+<a href="https://codesandbox.com/danishkhan424" target="_blank"><img align="center" src="images/code-sandbox.png" alt="codeSandbox-danishkhan424" height="40" width="40" /></a>
 </p>
 <br>
 
