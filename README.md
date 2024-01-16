@@ -16,7 +16,7 @@
 
 📔 Resume - [Resume](https://test-resume.masaischool.com/dashboard/profile/?selectedTemplate=ModernMilestone&isEdit=true&resumeId=6569fdd7436c6b8b69f3e0f4&profileId=self)
 
-💼 Portfolio - [link](link)
+💼 Portfolio - [link](https://danishkhan424.github.io/danishkhan424/)
 
 ## 🌐 Connect with me:
 
