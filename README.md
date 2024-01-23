@@ -47,12 +47,11 @@
 
 ## 📊 GitHub Stats:
 
-![danishkhan424](https://github-readme-stats.vercel.app/api?username=danishkhan424&show_icons=true&locale=en&theme=swift#gh-light-mode-only)
+![danishkhan424](https://github-readme-stats.vercel.app/api?username=danishkhan424&show_icons=true&locale=en&theme=react)
 <br>
-![danishkhan424](https://github-readme-streak-stats.herokuapp.com/?user=danishkhan424&theme=swift#gh-light-mode-only)
+![danishkhan424](https://github-readme-streak-stats.herokuapp.com/?user=danishkhan424&theme=react)
 <br>
-![danishkhan424](https://github-readme-stats.vercel.app/api/top-langs?username=danishkhan424&show_icons=true&locale=en&layout=compact&theme=swift#gh-light-mode-only)
-
+![danishkhan424](https://github-readme-stats.vercel.app/api/top-langs?username=danishkhan424&show_icons=true&locale=en&layout=compact&theme=react)
 
 <!--
 ![danishkhan424](https://github-readme-stats.vercel.app/api?username=danishkhan424&show_icons=true&locale=en&theme=react#gh-dark-mode-only)
