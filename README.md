@@ -47,15 +47,17 @@
 
 ## 📊 GitHub Stats:
 
-<p>&nbsp;<img align="center" src="https://github-readme-stats.vercel.app/api?username=danishkhan424&show_icons=true&locale=en" alt="danishkhan424" /></p><br>
-
-<p><img align="center" src="https://github-readme-streak-stats.herokuapp.com/?user=danishkhan424&" alt="danishkhan424" /></p><br>
-
-<p><img align="center" src="https://github-readme-stats.vercel.app/api/top-langs?username=danishkhan424&show_icons=true&locale=en&layout=compact" alt="danishkhan424" /></p><br>
-
+![danishkhan424](https://github-readme-stats.vercel.app/api?username=danishkhan424&show_icons=true&locale=en&theme=swift#gh-light-mode-only)
+<br>
+![danishkhan424](https://github-readme-streak-stats.herokuapp.com/?user=danishkhan424&theme=swift#gh-light-mode-only)
+<br>
+![danishkhan424](https://github-readme-stats.vercel.app/api/top-langs?username=danishkhan424&show_icons=true&locale=en&layout=compact&theme=swift#gh-light-mode-only)
 
 
 <!--
+![danishkhan424](https://github-readme-stats.vercel.app/api?username=danishkhan424&show_icons=true&locale=en&theme=react#gh-dark-mode-only)
+![danishkhan424](https://github-readme-streak-stats.herokuapp.com/?user=danishkhan424&theme=react#gh-dark-mode-only)
+![danishkhan424](https://github-readme-stats.vercel.app/api/top-langs?username=danishkhan424&show_icons=true&locale=en&layout=compact&theme=react#gh-dark-mode-only)
 **danishkhan424/danishkhan424** is a ✨ _special_ ✨ repository because its `README.md` (this file) appears on your GitHub profile.
 
 Here are some ideas to get you started:
