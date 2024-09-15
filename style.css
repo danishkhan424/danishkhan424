@@ -183,6 +183,13 @@ nav ul li a:hover:not(.res) {
 .about-details>p{
   margin-top: 40px;
   font-size: 1em;
+  line-height: 1.4em;
+}
+.smallDescription{
+  display: none;
+  margin-top: 30px;
+  font-size: 1.5em;
+  line-height: 1.4em;
 }
 
 /* ------------ Skills section ------------------ */
@@ -489,6 +496,14 @@ footer {
 #about{
     padding: 70px 50px;
 }
+.about-details>p{
+    font-size: 1em;
+    display: none;
+  }
+  .smallDescription{
+    display: inline-block;
+    margin-top: 10px;
+}
 
 /* ------------ Skills section ------------------ */
 
@@ -661,9 +676,13 @@ footer{
   max-width: 550px;
 }
 .about-details > p{
-  font-size: 1.4em;
+  font-size: 1.2em;
 }
-
+.smallDescription{
+  margin-top: 30px;
+  font-size: 2em;
+  line-height: 1.2em;
+}
 
 /* ------------ Skills section ------------------ */
 
