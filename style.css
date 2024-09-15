@@ -501,7 +501,7 @@ footer {
     display: none;
   }
   .smallDescription{
-    display: inline-block;
+    display: block;
     margin-top: 10px;
 }
 
@@ -679,6 +679,7 @@ footer{
   font-size: 1.2em;
 }
 .smallDescription{
+  display: block;
   margin-top: 30px;
   font-size: 2em;
   line-height: 1.2em;
